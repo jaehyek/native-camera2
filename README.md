@@ -14,3 +14,5 @@ Screenshots
 -----------
 ![screenshot](screenshot.png)
 
+-----------
+This is forked from  justinjoy/native-camera2

@@ -115,7 +115,7 @@ static void openCamera(ACameraDevice_request_template templateId)
     }
 
     // captureRequest 을 생성.
-    camera_status = ACameraDevice_createCaptureRequest(cameraDevice, TEMPLATE_STILL_CAPTURE,
+    camera_status = ACameraDevice_createCaptureRequest(cameraDevice, templateId,
                                                        &captureRequest);
 
     if (camera_status != ACAMERA_OK)
